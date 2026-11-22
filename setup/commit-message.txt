@@ -1,0 +1,15 @@
+탈까말까 1.0.0: 앱인토스 미니앱과 혼잡도 예측표
+
+- app: React + TypeScript + Vite 미니앱 (앱인토스 SDK 3.10.0, appName tkkmkk)
+  온보딩, 홈, 경로 상세(시간대별·구간별), 빠른 조회, 즐겨찾기
+  경로는 토스 앱 저장소(Storage)에 저장, 서버·알림 없음
+- app/tests: 실제 예측표로 경로·계산 검사 18개 (npm test)
+- analysis/build_forecast.py: 혼잡도 최근 4개 분기 가중평균 예측표 생성
+- data/processed/forecast.json: 1~8호선 277개 역 예측표
+- release: 콘솔 등록용 로고·스크린샷·출시정보 (2026-11-23 검토 요청)
+- setup: 개발 환경 점검·설치 스크립트, 커밋 스크립트
+- docs: 계획서·발표자료 v3 (실제 구현과 분석 결과 반영)
+- analysis/analyze_questions.py: 분석 질문 Q1~Q3 계산
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01C8KK8gN5kXsiWma8ZmKC8x

@@ -1,0 +1,30 @@
+# 비밀 정보: 절대 GitHub에 올리지 않기
+.env
+*.pem
+*.key
+*.crt
+*.p12
+certs/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 원본 데이터 (용량이 커서 제외, 내려받는 방법은 README에 기록)
+data/raw/*
+!data/raw/.gitkeep
+
+# Node.js / 미니앱
+node_modules/
+dist/
+*.ait
+
+# 설치 점검 결과
+setup/setup-result.txt
+
+# OS / 편집기
+Thumbs.db
+.DS_Store
+.idea/
